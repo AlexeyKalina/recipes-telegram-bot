@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Neo4jClient" Version="2.0.0.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Recipes.ObjectModel\Recipes.ObjectModel.csproj">
+      <Project>{40E688D5-13E8-4D30-88A9-280C90377908}</Project>
+      <Name>Recipes.ObjectModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

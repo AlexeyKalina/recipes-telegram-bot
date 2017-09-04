@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.0" />
+    <PackageReference Include="Telegram.Bot.Core" Version="13.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Recipes.DataLayer\Recipes.DataLayer.csproj" />
+  </ItemGroup>
+</Project>
